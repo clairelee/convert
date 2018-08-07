@@ -1,7 +1,6 @@
 ## INFO: ###
 # File must be saved in CSV - UTF8 ENCODING #
-# FILL OUT LINE 9 WITH ORIGIN CSV NAME, MUST BE SAVED IN SAME DIRECTORY #
-# FILL OUT LINE 33 WITH CORRECT PRODUCT_BARCODE MAPPING (you can always change later) #
+# FILL OUT LINE 8 WITH ORIGIN CSV NAME, MUST BE SAVED IN SAME DIRECTORY #
 
 import csv
 import os
@@ -30,7 +29,7 @@ with open(inputFileName, 'rt') as inFile, open(outputFileName, 'wt') as outfile:
         to_address_country = row['Shipping Country']
         to_address_phone = row['Shipping Phone Number']
         to_address_email = row['Email']
-        product_barcode = row['Perk'] # fill out correct mapping
+        product_barcode = row['Perk']
         # units = row['Quantity:']
         units = ""
         # service = row['Shipping Delivery Notes']
