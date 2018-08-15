@@ -41,15 +41,6 @@ with open(inputFileName, 'rt') as inFile, open(outputFileName, 'wt') as outfile:
 
         # check if more items ordered
         if row['SKU2'] != "":
-            to_address_name = row['Address Name']
-            to_address_street1 = row['Address Line 1']
-            to_address_street2 = row['Address Line 2']
-            to_address_city = row['Address City']
-            to_address_state = row['Address State']
-            to_address_zip = row['Address Postal Code']
-            to_address_country = row['Address Country']
-            to_address_phone = row['Address Phone Number']
-            to_address_email = row['Email']
             product_barcode = row['SKU2']
             units = row['qty2']
 
@@ -58,15 +49,6 @@ with open(inputFileName, 'rt') as inFile, open(outputFileName, 'wt') as outfile:
             to_address_phone, to_address_email, product_barcode, units, service])
 
         if row['SKU3'] != "":
-            to_address_name = row['Address Name']
-            to_address_street1 = row['Address Line 1']
-            to_address_street2 = row['Address Line 2']
-            to_address_city = row['Address City']
-            to_address_state = row['Address State']
-            to_address_zip = row['Address Postal Code']
-            to_address_country = row['Address Country']
-            to_address_phone = row['Address Phone Number']
-            to_address_email = row['Email']
             product_barcode = row['SKU3']
             units = row['qty3']
 
@@ -75,15 +57,6 @@ with open(inputFileName, 'rt') as inFile, open(outputFileName, 'wt') as outfile:
             to_address_phone, to_address_email, product_barcode, units, service])
 
         if row['SKU4'] != "":
-            to_address_name = row['Address Name']
-            to_address_street1 = row['Address Line 1']
-            to_address_street2 = row['Address Line 2']
-            to_address_city = row['Address City']
-            to_address_state = row['Address State']
-            to_address_zip = row['Address Postal Code']
-            to_address_country = row['Address Country']
-            to_address_phone = row['Address Phone Number']
-            to_address_email = row['Email']
             product_barcode = row['SKU4']
             units = row['qty4']
 
